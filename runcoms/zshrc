@@ -28,6 +28,9 @@ alias tmux="TERM=screen-256color-bce tmux"
 # powerline setting
 powerline-daemon -q
 
+# fzf setting
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 ## peco & ghq setting
 function peco-src() {
     local selected_dir=$(ghq list | peco --query "$LBUFFER")
