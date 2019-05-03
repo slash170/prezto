@@ -54,7 +54,7 @@ bindkey '^r' peco-select-history
 
 # env settings
 export GOPATH=$HOME/src/go
-export PATH=/usr/local/go/bin:$GOPATH/bin:$PATH
+export PATH=$HOME/.local/bin:/usr/local/go/bin:$GOPATH/bin:$PATH
 export XDG_CONFIG_HOME=$HOME/.config
 export GTAGSCONF=/usr/share/gtags/gtags.conf
 export GTAGSLABEL=pygments
