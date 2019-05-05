@@ -53,7 +53,7 @@ zle -N peco-select-history
 bindkey '^r' peco-select-history
 
 # env settings
-export GOPATH=$HOME/src/go
+export GOPATH=$HOME/go
 export PATH=$HOME/.local/bin:/usr/local/go/bin:$GOPATH/bin:$PATH
 export XDG_CONFIG_HOME=$HOME/.config
 export GTAGSCONF=/usr/share/gtags/gtags.conf
