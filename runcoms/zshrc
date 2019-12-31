@@ -31,6 +31,11 @@ powerline-daemon -q
 # fzf setting
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# zsh completion setting
+# ex.) docker command
+
+fpath=(~/.zsh/completion $fpath)
+
 ## peco & ghq setting
 function peco-src() {
     local selected_dir=$(ghq list --full-path | peco --query "$LBUFFER")
