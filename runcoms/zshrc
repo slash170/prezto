@@ -37,6 +37,9 @@ powerline-daemon -q
 
 fpath=(~/.zsh/completion $fpath)
 
+## ripgrep setting
+alias rg="rg --column --line-number --no-heading --color=always --smart-case"
+
 ## peco & ghq setting
 function peco-src() {
     local selected_dir=$(ghq list --full-path | peco --query "$LBUFFER")
