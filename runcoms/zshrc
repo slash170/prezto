@@ -38,7 +38,7 @@ powerline-daemon -q
 fpath=(~/.zsh/completion $fpath)
 
 ## ripgrep setting
-alias rg="rg --column --line-number --no-heading --color=always --smart-case"
+alias rg="rg --column --line-number  --color=always --smart-case"
 
 ## peco & ghq setting
 function peco-src() {
